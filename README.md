@@ -6,7 +6,7 @@
 
 This project is a part of Udacity's curriculum on Data Wrangling using Twitter's API.The dataset used to wrangle is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. And the numerators almost always greater than 10, because "they're good dogs Brent." The tweet archive records using in this project contains basic tweet data (tweet ID, timestamp, text, etc.)
 
-<h3>Tools Used</h3> : Python<br>
+<h3>Tools Used</h3>  Python<br>
 
 <h3>Project Steps:</h3>
 1. Gather Data<br>
