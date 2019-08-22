@@ -17,8 +17,8 @@ This project is a part of Udacity's curriculum on Data Wrangling using Twitter's
 6. Visualizing <br>
 
 <h4>Data Gathering</h4>
-twitter_archive: The WeRateDogs Twitter archive, which is provides by the Udacity Course and we use pd.read_csv() to import them into dataframe.
-image_predictions: The tweet image predictions, i.e., what breed of dog (or other objects, animal, etc.) is present in each tweet according to a neural network. This file ('image_predictions.tsv') is hosted on Udacity's servers and downloaded programmatically using the requests library and the provided url.
-tweet_data: Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called 'tweet_json.txt' file. Each tweet's JSON data is written to its own line.
+<b>twitter_archive:</b> The WeRateDogs Twitter archive, which is provides by the Udacity Course and we use pd.read_csv() to import them into dataframe.<br>
+<b>image_predictions:</b> The tweet image predictions, i.e., what breed of dog (or other objects, animal, etc.) is present in each tweet according to a neural network. This file ('image_predictions.tsv') is hosted on Udacity's servers and downloaded programmatically using the requests library and the provided url.<br>
+<b>tweet_data:</b> Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called 'tweet_json.txt' file. Each tweet's JSON data is written to its own line. <br>
 
 <b>Steps to be continued since project is still in progress.
