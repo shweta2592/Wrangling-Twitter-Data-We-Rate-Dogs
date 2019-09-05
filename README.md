@@ -21,20 +21,21 @@ This project is a part of Udacity's curriculum on Data Wrangling using Twitter's
 <b>image_predictions:</b> The tweet image predictions, i.e., what breed of dog (or other objects, animal, etc.) is present in each tweet according to a neural network. This file ('image_predictions.tsv') is hosted on Udacity's servers and downloaded programmatically using the requests library and the provided url.<br>
 <b>tweet_data:</b> Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called 'tweet_json.txt' file. Each tweet's JSON data is written to its own line. <br>
 <h4> Data Cleaning </h4>
-<b>Quality
+<b>Quality</b>
 Datatype of timestamp column were strings.
-Some ratings in the numerator are in decimals. They need to be converted into float datatype.
-Sources of devices used to make a tweet were links.
-Only Original tweets need to be retained.
-Drop certain rows which are retweets and replies to retweets
-Drop columns not useful for analysis
-Some names were a, an, the etc. which didn't make sense.
-Some Numerator ratings were extremely high
-Denominator values range from 0 to 170
-Tidiness
-Columns 'doggo', 'floofer','pupper' and 'puppo' are all one variable for Stages
-Columns p1_dog,p2_dog,p3_dog are all one variable for Dog breeds.
-Clean Data
+<br>1.Some ratings in the numerator are in decimals. They need to be converted into float datatype.
+<br>2.Sources of devices used to make a tweet were links.
+<br>3. Only Original tweets need to be retained.
+<br>4.Drop certain rows which are retweets and replies to retweets
+<br>5.Drop columns not useful for analysis
+<br>6.Some names were a, an, the etc. which didn't make sense.
+<br>7.Some Numerator ratings were extremely high
+<br>8.Denominator values range from 0 to 170
+<b>Tidiness</b>
+<br>1.Columns 'doggo', 'floofer','pupper' and 'puppo' are all one variable for Stages
+<br>2.Columns p1_dog,p2_dog,p3_dog are all one variable for Dog breeds.
+
+<br><h4>Clean Data</h4>
 Timestamp column was converted into datetime object
 Dog_breeds column created which merged p1_dog,p2_dog and p3_dogs
 Only original tweets retained.Duplicate rows were dropped.
