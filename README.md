@@ -20,7 +20,7 @@ This project is a part of Udacity's curriculum on Data Wrangling using Twitter's
 <b>twitter_archive:</b> The WeRateDogs Twitter archive, which is provides by the Udacity Course and we use pd.read_csv() to import them into dataframe.<br>
 <b>image_predictions:</b> The tweet image predictions, i.e., what breed of dog (or other objects, animal, etc.) is present in each tweet according to a neural network. This file ('image_predictions.tsv') is hosted on Udacity's servers and downloaded programmatically using the requests library and the provided url.<br>
 <b>tweet_data:</b> Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called 'tweet_json.txt' file. Each tweet's JSON data is written to its own line. <br>
-<h4> Data Cleaning </h4>
+<h4> Data Assessing </h4>
 <b>Quality</b>
 Datatype of timestamp column were strings.
 <br>1.Some ratings in the numerator are in decimals. They need to be converted into float datatype.
@@ -36,16 +36,16 @@ Datatype of timestamp column were strings.
 <br>2.Columns p1_dog,p2_dog,p3_dog are all one variable for Dog breeds.
 
 <br><h4>Clean Data</h4>
-Timestamp column was converted into datetime object
-Dog_breeds column created which merged p1_dog,p2_dog and p3_dogs
-Only original tweets retained.Duplicate rows were dropped.
-Columns not useful for analysis were dropped
-Denominator ratings not equal to 10 were dropped
-Very high numerator rating rows were removed
-Both numerator and denominator were converted into float type from integers.
-Name column consisting of a, an, the etc. were combined and replaced with None.
-Sources of devices which were links were converted into strings
-Stages column created by melting 'dogs','floofer','pupper' and 'puppo' columns
-The cleaned dataframe was then written to a .csv file and named as twitter_archive_master.csv.
+<br>1.Timestamp column was converted into datetime object
+<br>2.Dog_breeds column created which merged p1_dog,p2_dog and p3_dogs
+<br>3.Only original tweets retained.Duplicate rows were dropped.
+<br>4.Columns not useful for analysis were dropped
+<br>5.Denominator ratings not equal to 10 were dropped
+<br>6.Very high numerator rating rows were removed
+<br>7.Both numerator and denominator were converted into float type from integers.
+<br>8.Name column consisting of a, an, the etc. were combined and replaced with None.
+<br>9.Sources of devices which were links were converted into strings
+<br>10.Stages column created by melting 'dogs','floofer','pupper' and 'puppo' columns
+<br>11.The cleaned dataframe was then written to a .csv file and named as twitter_archive_master.csv.
 
 <h4> Exploring and Assessing : The whole data was cleaned and explored visually and conclusions were provided.
