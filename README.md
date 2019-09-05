@@ -31,7 +31,7 @@ Datatype of timestamp column were strings.
 <br>6.Some names were a, an, the etc. which didn't make sense.
 <br>7.Some Numerator ratings were extremely high
 <br>8.Denominator values range from 0 to 170
-<b>Tidiness</b>
+<br><b>Tidiness</b>
 <br>1.Columns 'doggo', 'floofer','pupper' and 'puppo' are all one variable for Stages
 <br>2.Columns p1_dog,p2_dog,p3_dog are all one variable for Dog breeds.
 
