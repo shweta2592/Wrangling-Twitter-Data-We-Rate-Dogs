@@ -6,10 +6,10 @@ This project is a part of Udacity's curriculum on Data Wrangling, web scraping u
 
 <h3>Installations</h3>  
 1.Python<br>
-2.Jupyter
-3.request
-4. matplotlib
-5.seaborn
+2.Jupyter<br>
+3.request<br>
+4. matplotlib<br>
+5.seaborn<br>
 
 <h3>Project Steps:</h3>
 1. Gather Data<br>
@@ -51,4 +51,4 @@ Datatype of timestamp column were strings.
 <br>10.Stages column created by melting 'dogs','floofer','pupper' and 'puppo' columns
 <br>11.The cleaned dataframe was then written to a .csv file and named as twitter_archive_master.csv.
 
-<h4> Exploring and Assessing : The whole data was cleaned and explored. Visualizations were provided for a cleaer understanding of each variable and its uses.
+<h4> Exploring and Assessing : </h4> The whole data was cleaned and explored. Visualizations were provided for a cleaer understanding of each variable and its uses.
